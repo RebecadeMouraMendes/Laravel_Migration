@@ -7,55 +7,36 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Tutorial da atividade
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- Acesse o xampp/php/php.ini e pesquise por ;extension=ftp/ffi/zip, depois retire o “;”.
+- Crie uma pasta no xampp/htdocs.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Faça a instalação do Laravel com os seguintes comandos:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<img width="1350" height="287" alt="Captura de tela de 2025-08-09 12-41-13" src="https://github.com/user-attachments/assets/8b90224f-02d4-4a99-8636-2e4301bf203e" />
+<img width="559" height="287" alt="Captura de tela de 2025-08-09 12-41-21" src="https://github.com/user-attachments/assets/1e3a7aca-10f1-47c0-87ba-c9f7490f1671" />
+<img width="720" height="347" alt="Captura de tela de 2025-08-09 12-42-03" src="https://github.com/user-attachments/assets/f94775ba-a8ef-4781-b8f5-27ecd59f32c2" />
+<img width="720" height="93" alt="Captura de tela de 2025-08-09 12-42-21" src="https://github.com/user-attachments/assets/ffdca1e9-07aa-42d6-b6d4-ff6e2f9ad82a" />
 
-## Learning Laravel
+E por fim, vamos realizar as etapas de migrações:
+Esse comando de migrações, publica suas modificações no banco escolhido (nesse caso MySql). Ele localiza o banco declarado no .env e suas configurações, 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Gere uma tabela  chamada "user_alunos":
+<img width="773" height="84" alt="Captura de tela de 2025-08-09 12-42-54" src="https://github.com/user-attachments/assets/44cd7246-4796-4c36-932d-df55a95fdd3d" />
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Podemos notar a criação da tabela user_alunos na pasta sistema/database/migrations:
+<img width="347" height="274" alt="Captura de tela de 2025-08-09 12-43-18" src="https://github.com/user-attachments/assets/cfe29cb9-9d42-4bfc-9ead-b75afed8a289" />
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Nesse arquivo precisamos indicar os campos da tabela e seus tipos de dado:
+<img width="785" height="600" alt="Captura de tela de 2025-08-09 12-44-45" src="https://github.com/user-attachments/assets/1af7b9ae-ad90-4536-be30-3e3ece3ccc3b" />
 
-## Laravel Sponsors
+Para publicar as alterações devemos rodar esse comando novamente:
+<img width="1276" height="128" alt="Captura de tela de 2025-08-09 12-46-33" src="https://github.com/user-attachments/assets/ddd01a75-1d4e-4ff2-bcdb-404cce123c90" />
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+A tabela foi criada no phpMyAdmin com os campos que denominamos:
+<img width="481" height="265" alt="Captura de tela de 2025-08-09 12-47-05" src="https://github.com/user-attachments/assets/31c2c0cb-e970-4e9e-b4ed-54352471f0e3" />
 
-### Premium Partners
+## Criadora
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Etec Zona Leste - Rebeca de Moura Mendes
