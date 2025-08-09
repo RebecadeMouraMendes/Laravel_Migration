@@ -25,7 +25,7 @@ Faça a instalação do Laravel com os seguintes comandos:
 </p>
 </p>
 E por fim, vamos realizar as etapas de migrações:
-Esse comando de migrações, publica suas modificações no banco escolhido (nesse caso MySql). Ele localiza o banco declarado no .env e suas configurações, 
+Esse comando de migrações, publica suas modificações no banco escolhido (nesse caso MySql). Ele localiza o banco declarado no .env e suas configurações.
 </p>
 Gere uma tabela  chamada "user_alunos":
 </p>
@@ -49,4 +49,5 @@ A tabela foi criada no phpMyAdmin com os campos que denominamos:
 <img width="481" height="265" alt="Captura de tela de 2025-08-09 12-47-05" src="https://github.com/user-attachments/assets/31c2c0cb-e970-4e9e-b4ed-54352471f0e3" />
 </p>
 </p>
+
 ## Etec Zona Leste - Rebeca de Moura Mendes
